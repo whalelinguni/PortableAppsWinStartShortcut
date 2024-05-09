@@ -1,6 +1,6 @@
 A# Portable Apps Shortcut Creator
 
-This PowerShell script is designed to create shortcuts to your portable applications inside a directory named "PortableApps" in the Start Menu. This makes it easier for Flow Launcher or other alternative launchers to index your portable apps.
+This PowerShell script is designed to create shortcuts to your portable applications inside a directory named "PortableApps" in the Start Menu. This makes it easier for Flow Launcher or other alternative launchers to index your portable apps. All shortcuts will be saved to 'PortableApps' directory in the start menu. Shortcut names will be formatted. Shortcuts overwrite, can run as needed.
 
 ## Usage
 
@@ -12,6 +12,8 @@ This PowerShell script is designed to create shortcuts to your portable applicat
 
 ## Features
 
+- Shortcuts will be saved to 'PortableApps' directory in the start menu. 
+- Shortcut names will be formatted. Script overwrites exisitng shortcuts, can run as needed.
 - Automatically creates shortcuts for portable applications.
 - Colorful console output for improved visibility.
 
